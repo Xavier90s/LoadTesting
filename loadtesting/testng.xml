@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="loadtesting">
+ <test name="LoadTest01">
+ <classes>
+ <class name="com.teachbeamers.LoadTest01" />
+ </classes>
+ </test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="loadtesting" duration-ms="5964" started-at="2019-06-21T06:44:54Z" finished-at="2019-06-21T06:45:00Z">
+    <groups>
+    </groups>
+    <test name="LoadTest01" duration-ms="5964" started-at="2019-06-21T06:44:54Z" finished-at="2019-06-21T06:45:00Z">
+      <class name="com.teachbeamers.LoadTest01">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.teachbeamers.LoadTest01@66a3ffec]" name="beforeClass" is-config="true" duration-ms="3335" started-at="2019-06-21T06:44:54Z" finished-at="2019-06-21T06:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifySearchButton()[pri:0, instance:com.teachbeamers.LoadTest01@66a3ffec]" name="verifySearchButton" duration-ms="1980" started-at="2019-06-21T06:44:58Z" finished-at="2019-06-21T06:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.teachbeamers.LoadTest01@66a3ffec]" name="afterClass" is-config="true" duration-ms="621" started-at="2019-06-21T06:45:00Z" finished-at="2019-06-21T06:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.teachbeamers.LoadTest01 -->
+    </test> <!-- LoadTest01 -->
+  </suite> <!-- loadtesting -->
+</testng-results>

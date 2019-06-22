@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [loadtesting]">
+  <test thread-count="5" name="LoadTest01(failed)">
+    <classes>
+      <class name="com.teachbeamers.LoadTest01">
+        <methods>
+          <include name="afterClass"/>
+          <include name="verifySearchButton"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.teachbeamers.LoadTest01 -->
+    </classes>
+  </test> <!-- LoadTest01(failed) -->
+</suite> <!-- Failed suite [loadtesting] -->
